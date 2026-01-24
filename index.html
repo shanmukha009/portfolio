@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shanmukh Raj Siricilla | AI/ML Engineer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: white;
+            padding: 60px 0;
+            text-align: center;
+            margin-bottom: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        
+        .subtitle {
+            font-size: 1.2em;
+            color: #7f8c8d;
+            margin-bottom: 20px;
+        }
+        
+        .contact-links {
+            margin-top: 20px;
+        }
+        
+        .contact-links a {
+            margin: 0 15px;
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .contact-links a:hover {
+            text-decoration: underline;
+        }
+        
+        section {
+            background: white;
+            margin-bottom: 30px;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        h2 {
+            font-size: 2em;
+            margin-bottom: 30px;
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        
+        .project {
+            margin-bottom: 40px;
+        }
+        
+        .project:last-child {
+            margin-bottom: 0;
+        }
+        
+        .project h3 {
+            font-size: 1.5em;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .project-meta {
+            color: #7f8c8d;
+            margin-bottom: 15px;
+            font-size: 0.9em;
+        }
+        
+        .project ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        
+        .project li {
+            margin-bottom: 8px;
+        }
+        
+        .project-link {
+            display: inline-block;
+            margin-top: 10px;
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .project-link:hover {
+            text-decoration: underline;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        
+        .skill-category h3 {
+            font-size: 1.2em;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .skill-category p {
+            color: #555;
+            line-height: 1.8;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            color: #7f8c8d;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+            
+            section {
+                padding: 25px;
+            }
+            
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Shanmukh Raj Siricilla</h1>
+            <p class="subtitle">AI/ML Engineer | Video Generation & Diffusion Models</p>
+            <p>Recent Master's graduate from San Jose State University specializing in video generation and diffusion models</p>
+            <div class="contact-links">
+                <a href="https://github.com/shanmukha009" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/shanmukh-raj" target="_blank">LinkedIn</a>
+                <a href="mailto:shanmukhraj965@gmail.com">Email</a>
+            </div>
+        </header>
+
+        <section id="projects">
+            <h2>Featured Projects</h2>
+            
+            <div class="project">
+                <h3>CineLite - Text-to-Video Generation System</h3>
+                <p class="project-meta">Master's Capstone Project | PyTorch, Diffusion Models, Distributed Training</p>
+                <p>Comprehensive text-to-video generation system with systematic comparison of multiple architectures.</p>
+                <ul>
+                    <li><strong>82% quality improvement</strong> and <strong>30% temporal consistency gains</strong> over baseline</li>
+                    <li>Compared 4 different architectures: ModelScope, CogVideoX, AnimateDiff with LoRA, and custom diffusion model built from scratch</li>
+                    <li>Trained on distributed H200 GPU infrastructure using MSR-VTT dataset with 10,680 videos</li>
+                    <li>Implemented mixed precision training, XFormers optimization, and LoRA fine-tuning for efficiency</li>
+                    <li>Developed comprehensive benchmarking methodology across all architectures</li>
+                </ul>
+                <a href="https://github.com/shanmukha009/CineLite-Text-to-Video-Generation-using-Generative-AI" class="project-link" target="_blank">View Project →</a>
+            </div>
+
+            <div class="project">
+                <h3>Text2SQL - Natural Language to SQL Query Generation</h3>
+                <p class="project-meta">Full-Stack NLP System | Python, NLP, Database Integration</p>
+                <p>End-to-end system for converting natural language queries into SQL statements.</p>
+                <ul>
+                    <li>Full-stack implementation with frontend interface and backend API</li>
+                    <li>Natural language processing pipeline for query understanding</li>
+                    <li>Database integration with evaluation framework</li>
+                    <li>Demonstrates NLP and software engineering capabilities</li>
+                </ul>
+                <a href="https://github.com/shanmukha009/DATA-266-Text2SQL" class="project-link" target="_blank">View Project →</a>
+            </div>
+
+            <div class="project">
+                <h3>Multimodal AI Document Understanding</h3>
+                <p class="project-meta">Team Project | Multimodal AI, Document Processing</p>
+                <p>Multimodal AI system for document understanding and image generation.</p>
+                <ul>
+                    <li>Document understanding using multimodal AI techniques</li>
+                    <li>Image generation capabilities integrated with document processing</li>
+                    <li>Collaborative team project demonstrating AI development skills</li>
+                </ul>
+                <a href="https://github.com/shanmukha009/Multimodal-AI-Document-Understanding" class="project-link" target="_blank">View Project →</a>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Deep Learning</h3>
+                    <p>PyTorch, Diffusion Models, Mixed Precision Training, Distributed Training, Model Fine-tuning</p>
+                </div>
+                <div class="skill-category">
+                    <h3>NLP & Data</h3>
+                    <p>Text-to-SQL, Natural Language Processing, Database Integration, Data Preprocessing</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Optimization</h3>
+                    <p>XFormers, LoRA Fine-tuning, Model Compression, Parameter-Efficient Training</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Infrastructure</h3>
+                    <p>H200/H100 GPUs, RunPod, Google Cloud Storage, Distributed Systems</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Programming</h3>
+                    <p>Python, SQL, JavaScript, Git, TypeScript</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks & Tools</h3>
+                    <p>TensorFlow, Jupyter, Docker, REST APIs</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+            <p>I'm an AI/ML Engineer with a Master's degree from San Jose State University, specializing in video generation and diffusion models. My work focuses on building production-ready generative AI systems with an emphasis on systematic evaluation and optimization.</p>
+            <p style="margin-top: 15px;">Currently seeking full-time opportunities in AI/ML Engineering, particularly in video generation, diffusion models, and generative AI applications.</p>
+        </section>
+
+        <footer>
+            <p>Open to opportunities in AI/ML Engineering</p>
+            <p style="margin-top: 10px;">San Jose, California | Available for relocation</p>
+        </footer>
+    </div>
+</body>
+</html>
